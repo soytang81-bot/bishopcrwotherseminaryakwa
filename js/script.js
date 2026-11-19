@@ -27,6 +27,6 @@ window.addEventListener("load", function () {
 
     setTimeout(() => {
       loader.remove();
-    }, 1500);
+    }, 2500);
   }
 });
