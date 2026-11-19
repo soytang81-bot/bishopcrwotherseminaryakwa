@@ -19,3 +19,14 @@ if (form) form.addEventListener("submit", event => {
     "Thank you. This demo form is ready to be connected to the school's email or backend.";
   form.reset();
 });
+window.addEventListener("load", function () {
+  const loader = document.getElementById("site-preloader");
+
+  if (loader) {
+    loader.classList.add("hide");
+
+    setTimeout(() => {
+      loader.remove();
+    }, 1500);
+  }
+});
